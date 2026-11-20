@@ -19,6 +19,32 @@
 
 A machine-learning-based cybersecurity prototype that analyzes domain names and classifies them into three categories: **Benign, DGA, and DNS Tunneling**.
 
+## Project Screenshots
+
+### 1. Dashboard Overview
+![Dashboard Overview](docs/screenshots/01-overview.png)
+
+### 2. Domain Analysis – Screenshot 1
+![Domain Analysis](docs/screenshots/02-domain-analysis.png(1).png)
+
+### 3. Domain Analysis – Screenshot 2
+![Domain Analysis](docs/screenshots/02-domain-analysis.png(2).png)
+
+### 4. DNS Tunneling Detection – Screenshot 1
+![DNS Tunneling](docs/screenshots/03-tunneling-detection.png(1).png)
+
+### 5. DNS Tunneling Detection – Screenshot 2
+![DNS Tunneling](docs/screenshots/03-tunneling-detection.png(2).png)
+
+### 6. Detection History
+![Detection History](docs/screenshots/04-detection-history.png)
+
+### 7. About Project – Screenshot 1
+![About Project](docs/screenshots/05-about-project.png(1).png)
+
+### 8. About Project – Screenshot 2
+![About Project](docs/screenshots/05-about-project.png(2).png)
+
 ## Project Overview
 
 DNS GUARD uses Python and an XGBoost classifier to identify suspicious domain-name patterns through lexical and structural feature extraction.
