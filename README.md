@@ -1,5 +1,22 @@
 # DNS GUARD – DNS Tunneling & Exfiltration Detector
 
+<p align="center">
+
+  <a href="https://dns-guard-gayatree.streamlit.app">
+    <img src="https://img.shields.io/badge/Live_Demo-Visit_DNS_GUARD-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  </a>
+
+  <a href="https://github.com/gayatree-sahoo/DNS-Tunneling-and-Exfiltration-Detector">
+    <img src="https://img.shields.io/badge/GitHub-Source_Code-181717?style=for-the-badge&logo=github" />
+  </a>
+
+</p>
+
+**Live Application:** https://dns-guard-gayatree.streamlit.app
+
+**Source Code:** https://github.com/gayatree-sahoo/DNS-Tunneling-and-Exfiltration-Detector
+
+
 A machine-learning-based cybersecurity prototype that analyzes domain names and classifies them into three categories: **Benign, DGA, and DNS Tunneling**.
 
 ## Project Overview
