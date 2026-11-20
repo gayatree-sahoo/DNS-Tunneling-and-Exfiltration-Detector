@@ -1,0 +1,20 @@
+DNS TUNNELING DETECTOR
+VERSION 3 - VALIDATION RESULTS
+
+Model: XGBoost
+Training samples: 1,986,248
+Validation samples: 496,562
+Features: 19
+
+Selected threshold: 0.80
+
+Precision: 83.01%
+Recall: 43.25%
+F1-score: 56.87%
+
+Threshold selection:
+Selected based on the highest F1-score
+among the tested thresholds.
+
+Note:
+These are validation results, not final test results.

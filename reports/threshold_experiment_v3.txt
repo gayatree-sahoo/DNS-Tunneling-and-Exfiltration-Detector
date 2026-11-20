@@ -1,0 +1,25 @@
+DNS TUNNELING DETECTOR
+VERSION 3 - THRESHOLD EXPERIMENT
+
+Model: XGBoost
+Features: 19
+Training samples: 2,482,810
+Testing samples: 620,703
+
+Best tested threshold: 0.95
+
+Precision: 60.40%
+Recall: 29.25%
+F1-score: 39.41%
+
+Observation:
+Increasing the classification threshold improved
+precision but reduced recall.
+
+The threshold of 0.95 produced the highest F1-score
+among the tested thresholds.
+
+Note:
+These results were obtained on the test dataset
+during experimentation. Independent validation
+and final testing are still required.
