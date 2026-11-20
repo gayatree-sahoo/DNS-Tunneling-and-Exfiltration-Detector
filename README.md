@@ -63,6 +63,34 @@ The system extracts 24 features from a domain name and displays its prediction t
 - Detection history and CSV export
 - Automated testing with pytest
 
+
+## System Architecture
+
+DNS GUARD follows a machine learning-based workflow consisting of model training and domain detection.
+
+```mermaid
+flowchart TD
+    A["DNS Threats Dataset"] --> B["Data Preparation"]
+    B --> C["Feature Extraction<br/>24 Features"]
+    C --> D["XGBoost Model Training"]
+    D --> E["Trained V5 Model"]
+
+    F["User Domain Input"] --> G["Feature Extraction"]
+    G --> H["Detection Engine"]
+    E --> H
+    H --> I{"Classification"}
+    I --> J["Benign"]
+    I --> K["DGA"]
+    I --> L["DNS Tunneling"]
+    J --> M["Streamlit Dashboard"]
+    K --> M
+    L --> M
+    M --> N["Detection History"]
+```
+
+The training workflow prepares the dataset, extracts features and trains the XGBoost classifier. The detection workflow analyzes user-provided domain names using the trained model and displays the classification results through the Streamlit dashboard.
+
+
 ## Technologies Used
 
 - Python
